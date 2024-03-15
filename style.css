@@ -33,6 +33,11 @@
     font-size: 2rem;
     background-color: black;
     color:white;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+
 }
 
 .choice{
@@ -90,7 +95,8 @@ font-size: 4rem;
     font-size: 2rem;
     display: inline;
     padding: 1rem;
-    border-radius: 30%;
+    border-radius: 30px;
+    margin-bottom: 100px;
 }
 
 .game{
@@ -103,4 +109,8 @@ font-size: 4rem;
 
 .hide{
     display: none;
+}
+
+h4{
+    text-align: center;
 }

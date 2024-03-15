@@ -45,6 +45,7 @@ compwon=()=>{
 }
 
 playgame=(userchoice)=>{
+    window.scrollTo(0,150)
     console.log("user choice = ",userchoice);
     let compchoice=getCompChoice();
     compchoiceimage=compchoice+".png";
